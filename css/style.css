@@ -45,6 +45,26 @@ html, body{
 }
 
 
+.box2:hover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:28%;
+    height:85vh;
+    float:right;
+    padding: 0 4%;
+    overflow: hidden;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 35%;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 4%;
+    opacity: 1;
+}
+
+
 input{
     border:none;
     outline: none;
@@ -57,91 +77,28 @@ input{
 }
 
 .btn{
-    float: right;
-    width: 30%;
+    float: center;
+    width: 100%;
     text-align: center;
     border: 1.5px solid gray;
-    border-radius: 2px;
+    border-radius: 20px;
     cursor: pointer;
     margin: 0 0 10px 0;
-    color: white !important;
-    background-color: #4040d6;
+    color: #4040d6;
+    background-color:white;
 }
+
+.btn:hover{
+  background-color: #4040d6;
+  color: white;
+}
+
 
 .login{
 
     text-decoration: none;
 
 }
-
-
-
-
-.check {
-    display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 18px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  }
-
-
-
-  /* Hide the browser's default checkbox */
-.check input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-  }
-
-
-.checkmark {
-    position: absolute;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #eee;
-  }
-
-  .check:hover input ~ .checkmark {
-    background-color: #ccc;
-  }
-
-  .check input:checked ~ .checkmark {
-    background-color: #2196F3;
-  }
-
-  .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-  }
-
-  .check input:checked ~ .checkmark:after {
-    display: block;
-  }
-
-  .check .checkmark:after {
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
-
-
 
 
 
